@@ -1,10 +1,10 @@
-package com.nxn.demo.derocoodemo;
+package com.shoyu666.demo.derocoodemo;
 
 import android.app.Application;
 import android.content.Context;
 
-import com.nxn.demo.derocoodemo.hotfix.HotFixManger;
-import com.nxn.demo.derocoodemo.util.MAppManager;
+import com.shoyu666.demo.derocoodemo.hotfix.HotFixManger;
+import com.shoyu666.demo.derocoodemo.util.MAppManager;
 
 /**
  * Created by shoyu666@163.com on 16/7/5.

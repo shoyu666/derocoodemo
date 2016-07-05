@@ -1,10 +1,10 @@
-package com.nxn.demo.derocoodemo.hotfix;
+package com.shoyu666.demo.derocoodemo.hotfix;
 
 import android.content.Context;
 import android.text.TextUtils;
 
 import com.dodola.rocoofix.RocooFix;
-import com.nxn.demo.derocoodemo.util.MAppInfoManager;
+import com.shoyu666.demo.derocoodemo.util.MAppInfoManager;
 
 import java.io.File;
 

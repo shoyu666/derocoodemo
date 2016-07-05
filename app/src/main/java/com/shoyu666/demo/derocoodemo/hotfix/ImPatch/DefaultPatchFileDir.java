@@ -1,11 +1,11 @@
-package com.nxn.demo.derocoodemo.hotfix.ImPatch;
+package com.shoyu666.demo.derocoodemo.hotfix.ImPatch;
 
 import android.Manifest;
 import android.os.Environment;
 
-import com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchFileDir;
-import com.nxn.demo.derocoodemo.util.MAppManager;
-import com.nxn.demo.derocoodemo.util.MPermissionUtil;
+import com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchFileDir;
+import com.shoyu666.demo.derocoodemo.util.MAppManager;
+import com.shoyu666.demo.derocoodemo.util.MPermissionUtil;
 
 import java.io.File;
 

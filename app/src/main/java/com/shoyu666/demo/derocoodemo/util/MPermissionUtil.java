@@ -1,4 +1,4 @@
-package com.nxn.demo.derocoodemo.util;
+package com.shoyu666.demo.derocoodemo.util;
 
 import android.app.Activity;
 import android.content.pm.PackageManager;

@@ -1,14 +1,14 @@
-package com.nxn.demo.derocoodemo;
+package com.shoyu666.demo.derocoodemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.nxn.demo.derocoodemo.hotfix.HotFixManger;
-import com.nxn.demo.derocoodemo.hotfix.PatchUpdateInfo;
-import com.nxn.demo.derocoodemo.hotfix.PatchManger;
-import com.nxn.demo.derocoodemo.util.MAppInfoManager;
+import com.shoyu666.demo.derocoodemo.hotfix.HotFixManger;
+import com.shoyu666.demo.derocoodemo.hotfix.PatchUpdateInfo;
+import com.shoyu666.demo.derocoodemo.hotfix.PatchManger;
+import com.shoyu666.demo.derocoodemo.util.MAppInfoManager;
 
 import java.io.File;
 

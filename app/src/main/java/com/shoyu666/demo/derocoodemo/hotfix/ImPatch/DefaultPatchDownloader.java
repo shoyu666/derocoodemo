@@ -1,13 +1,13 @@
-package com.nxn.demo.derocoodemo.hotfix.ImPatch;
+package com.shoyu666.demo.derocoodemo.hotfix.ImPatch;
 
 import android.util.Log;
 
 import com.androidquery.AQuery;
 import com.androidquery.callback.AjaxCallback;
 import com.androidquery.callback.AjaxStatus;
-import com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchDownloader;
-import com.nxn.demo.derocoodemo.hotfix.PatchManger;
-import com.nxn.demo.derocoodemo.util.MAppManager;
+import com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchDownloader;
+import com.shoyu666.demo.derocoodemo.hotfix.PatchManger;
+import com.shoyu666.demo.derocoodemo.util.MAppManager;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package com.nxn.demo.derocoodemo.util;
+package com.shoyu666.demo.derocoodemo.util;
 
 public class MExceptionManager {
 	public static void throwApplictionInitEx(String msg){

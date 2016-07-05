@@ -1,4 +1,4 @@
-package com.nxn.demo.derocoodemo;
+package com.shoyu666.demo.derocoodemo;
 
 import org.junit.Test;
 

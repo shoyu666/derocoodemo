@@ -1,4 +1,4 @@
-package com.nxn.demo.derocoodemo.hotfix;
+package com.shoyu666.demo.derocoodemo.hotfix;
 
 /**
  * Created by shoyu666@163.com on 16/7/5.

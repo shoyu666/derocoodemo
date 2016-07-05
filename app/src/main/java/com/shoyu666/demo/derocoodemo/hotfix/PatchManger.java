@@ -1,9 +1,9 @@
-package com.nxn.demo.derocoodemo.hotfix;
+package com.shoyu666.demo.derocoodemo.hotfix;
 
-import com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchDownloader;
-import com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchFileDir;
-import com.nxn.demo.derocoodemo.hotfix.ImPatch.DefaultPatchDownloader;
-import com.nxn.demo.derocoodemo.hotfix.ImPatch.DefaultPatchFileDir;
+import com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchDownloader;
+import com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchFileDir;
+import com.shoyu666.demo.derocoodemo.hotfix.ImPatch.DefaultPatchDownloader;
+import com.shoyu666.demo.derocoodemo.hotfix.ImPatch.DefaultPatchFileDir;
 
 /**
  * Created by shoyu666@163.com on 16/7/5.
