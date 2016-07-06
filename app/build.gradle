@@ -33,14 +33,13 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.dodola:rocoo:1.0'
     compile(name:'AndroidQuery-release', ext:'aar')
 }
 rocoo_fix {
-    includePackage = ['com/nxn/demo/derocoodemo']
+    includePackage = ['com/shoyu666/demo/derocoodemo']
     excludeClass = ['MyApplicaton.class','HotFixManger.class']
-    //preVersionPath = '1'
+//    preVersionPath = '1'
     enable = true
 }

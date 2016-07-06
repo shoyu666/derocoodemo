@@ -3,8 +3,10 @@ package com.shoyu666.demo.derocoodemo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.shoyu666.demo.derocoodemo.hookdemo.Test;
 import com.shoyu666.demo.derocoodemo.hotfix.HotFixManger;
 import com.shoyu666.demo.derocoodemo.hotfix.PatchUpdateInfo;
 import com.shoyu666.demo.derocoodemo.hotfix.PatchManger;
@@ -18,10 +20,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        TextView tv = (TextView)findViewById(R.id.textView);
+        tv.setText(Test.getText());
         PatchUpdateInfo mock = PatchUpdateInfo.mock;
         if(mock.targetVersion== MAppInfoManager.getVersionCode(this)&&!mock.newPatchMd5.equals(getCurrentPatchMd5())){
             //更新patch
-            HotFixManger.updatePatchJar();
+//            HotFixManger.updatePatchJar();
         }
         this.findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override

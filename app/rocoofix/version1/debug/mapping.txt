@@ -8836,430 +8836,360 @@ android.support.v7.widget.ViewUtils -> android.support.v7.widget.ea:
     void computeFitSystemWindows(android.view.View,android.graphics.Rect,android.graphics.Rect) -> a
     void makeOptionalFitsSystemWindows(android.view.View) -> b
     void <clinit>() -> <clinit>
-com.androidquery.AQuery -> com.a.a:
-    void <init>(android.content.Context) -> <init>
-com.androidquery.AbstractAQuery -> com.a.b:
-    android.view.View root -> c
-    android.app.Activity act -> d
-    android.content.Context context -> e
-    java.lang.Object progress -> a
-    com.androidquery.auth.AccountHandle ah -> b
-    com.androidquery.callback.Transformer trans -> f
-    int policy -> g
-    org.apache.http.HttpHost proxy -> h
-    java.lang.Class[] ON_CLICK_SIG -> i
-    java.lang.Class[] ON_ITEM_SIG -> j
-    java.lang.Class[] ON_SCROLLED_STATE_SIG -> k
-    java.lang.Class[] TEXT_CHANGE_SIG -> l
-    java.lang.Class[] PENDING_TRANSITION_SIG -> m
-    java.lang.Class[] OVER_SCROLL_SIG -> n
-    java.lang.Class[] LAYER_TYPE_SIG -> o
-    java.util.WeakHashMap dialogs -> p
-    void <init>(android.content.Context) -> <init>
-    com.androidquery.AbstractAQuery self() -> a
-    android.content.Context getContext() -> b
-    com.androidquery.AbstractAQuery ajax(com.androidquery.callback.AjaxCallback) -> a
-    com.androidquery.AbstractAQuery invoke(com.androidquery.callback.AbstractAjaxCallback) -> a
-    void reset() -> c
-    com.androidquery.AbstractAQuery show(android.app.Dialog) -> a
-    com.androidquery.AbstractAQuery dismiss(android.app.Dialog) -> b
-    com.androidquery.AbstractAQuery download(java.lang.String,java.io.File,com.androidquery.callback.AjaxCallback) -> a
-    void <clinit>() -> <clinit>
-com.androidquery.auth.AccountHandle -> com.a.a.a:
-    java.util.LinkedHashSet callbacks -> a
-    void auth(com.androidquery.callback.AbstractAjaxCallback) -> a
-    boolean authenticated() -> a
-    void auth() -> b
-    boolean expired(com.androidquery.callback.AbstractAjaxCallback,com.androidquery.callback.AjaxStatus) -> a
-    boolean reauth(com.androidquery.callback.AbstractAjaxCallback) -> b
-    void applyToken(com.androidquery.callback.AbstractAjaxCallback,org.apache.http.HttpRequest) -> a
-    void applyToken(com.androidquery.callback.AbstractAjaxCallback,java.net.HttpURLConnection) -> a
-    java.lang.String getNetworkUrl(java.lang.String) -> a
-    java.lang.String getCacheUrl(java.lang.String) -> b
-com.androidquery.callback.AbstractAjaxCallback -> com.a.b.a:
-    int NET_TIMEOUT -> i
-    java.lang.String AGENT -> j
-    int NETWORK_POOL -> k
-    boolean GZIP -> l
-    boolean REUSE_CLIENT -> m
-    boolean SIMULATE_ERROR -> n
-    java.lang.Class type -> o
-    java.lang.ref.Reference whandler -> p
-    java.lang.Object handler -> q
-    java.lang.String callback -> r
-    java.lang.ref.WeakReference progress -> s
-    java.lang.String url -> t
-    java.lang.String networkUrl -> u
-    java.util.Map params -> a
-    java.util.Map headers -> b
-    java.util.Map cookies -> c
-    com.androidquery.callback.Transformer transformer -> v
-    java.lang.Object result -> d
-    int policy -> w
-    java.io.File cacheDir -> x
-    java.io.File targetFile -> y
-    com.androidquery.auth.AccountHandle ah -> e
-    com.androidquery.callback.AjaxStatus status -> f
-    boolean fileCache -> g
-    boolean memCache -> h
-    boolean refresh -> z
-    int timeout -> A
-    boolean redirect -> B
-    long expire -> C
-    java.lang.String encoding -> D
-    java.lang.ref.WeakReference act -> E
-    int method -> F
-    org.apache.http.client.methods.HttpUriRequest request -> G
-    boolean uiCallback -> H
-    int retry -> I
-    com.androidquery.callback.Transformer st -> J
-    org.apache.http.HttpHost proxy -> K
-    java.lang.Class[] DEFAULT_SIG -> L
-    boolean completed -> M
-    boolean blocked -> N
-    boolean reauth -> O
-    java.util.concurrent.ExecutorService fetchExe -> P
-    org.apache.http.conn.scheme.SocketFactory ssf -> Q
-    org.apache.http.impl.client.DefaultHttpClient client -> R
-    com.androidquery.callback.ProxyHandle proxyHandle -> S
-    int lastStatus -> T
-    boolean abort -> U
+com.dodola.rocoofix.RocooFix -> com.dodola.rocoofix.RocooFix:
+    java.lang.String TAG -> TAG
+    java.lang.String CODE_CACHE_NAME -> CODE_CACHE_NAME
+    java.lang.String CODE_CACHE_SECONDARY_FOLDER_NAME -> CODE_CACHE_SECONDARY_FOLDER_NAME
+    int VM_WITH_MULTIDEX_VERSION_MAJOR -> VM_WITH_MULTIDEX_VERSION_MAJOR
+    int VM_WITH_MULTIDEX_VERSION_MINOR -> VM_WITH_MULTIDEX_VERSION_MINOR
+    java.util.Set installedApk -> installedApk
+    java.lang.String DIR -> DIR
+    java.io.File mOptDir -> mOptDir
+    java.util.Map mFixedClass -> mFixedClass
     void <init>() -> <init>
-    java.lang.Object self() -> e
-    void clear() -> f
-    java.lang.Object url(java.lang.String) -> a
-    java.lang.Object type(java.lang.Class) -> a
-    java.lang.Object transformer(com.androidquery.callback.Transformer) -> a
-    java.lang.Object policy(int) -> a
-    java.lang.Object proxy(java.lang.String,int) -> a
-    java.lang.Object targetFile(java.io.File) -> a
-    java.lang.Object progress(java.lang.Object) -> a
-    void callback() -> a
-    void wake() -> g
-    void callback(java.lang.String,java.lang.Object,com.androidquery.callback.AjaxStatus) -> a
-    void skip(java.lang.String,java.lang.Object,com.androidquery.callback.AjaxStatus) -> b
-    java.lang.Object fileGet(java.lang.String,java.io.File,com.androidquery.callback.AjaxStatus) -> a
-    java.lang.Object datastoreGet(java.lang.String) -> b
-    void showProgress(boolean) -> a
-    java.lang.Object transform(java.lang.String,byte[],com.androidquery.callback.AjaxStatus) -> a
-    java.lang.String getCharset(java.lang.String) -> d
-    java.lang.String parseCharset(java.lang.String) -> e
-    java.lang.String correctEncoding(byte[],java.lang.String,com.androidquery.callback.AjaxStatus) -> a
-    java.lang.Object memGet(java.lang.String) -> c
-    void memPut(java.lang.String,java.lang.Object) -> a
-    void filePut(java.lang.String,java.lang.Object,java.io.File,byte[]) -> a
-    java.io.File accessFile(java.io.File,java.lang.String) -> a
-    void async(android.app.Activity) -> a
-    void async(android.content.Context) -> a
-    boolean isActive() -> h
-    void work(android.content.Context) -> b
-    void run() -> run
-    void backgroundWork() -> i
-    java.lang.String getCacheUrl() -> j
-    java.lang.String getNetworkUrl(java.lang.String) -> f
-    void fileWork() -> k
-    void datastoreWork() -> l
-    void networkWork() -> m
-    java.io.File getCacheFile() -> b
-    boolean isStreamingContent() -> c
-    java.io.File getPreFile() -> n
-    void filePut() -> o
-    java.lang.String extractUrl(android.net.Uri) -> a
-    java.util.Map extractParams(android.net.Uri) -> b
-    void network(int) -> b
-    void network() -> p
-    void afterWork() -> q
-    void execute(java.lang.Runnable) -> a
-    java.lang.String patchUrl(java.lang.String) -> g
-    void httpGet(java.lang.String,com.androidquery.callback.AjaxStatus) -> a
-    void httpDelete(java.lang.String,com.androidquery.callback.AjaxStatus) -> b
-    void httpPost(java.lang.String,java.util.Map,com.androidquery.callback.AjaxStatus) -> a
-    void httpPut(java.lang.String,java.util.Map,com.androidquery.callback.AjaxStatus) -> b
-    void httpEntity(java.lang.String,org.apache.http.client.methods.HttpEntityEnclosingRequestBase,java.util.Map,com.androidquery.callback.AjaxStatus) -> a
-    org.apache.http.impl.client.DefaultHttpClient getClient() -> r
-    org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,org.apache.http.impl.client.DefaultHttpClient,org.apache.http.protocol.HttpContext) -> a
-    void httpDo(org.apache.http.client.methods.HttpUriRequest,java.lang.String,com.androidquery.callback.AjaxStatus) -> a
-    java.lang.String getEncoding(org.apache.http.HttpEntity) -> a
-    void copy(java.io.InputStream,java.io.OutputStream,int,java.io.File,java.io.File) -> a
-    java.io.File makeTempFile(java.io.File) -> b
-    void copy(java.io.InputStream,java.io.OutputStream,int) -> a
-    java.lang.Object auth(com.androidquery.auth.AccountHandle) -> a
-    java.lang.Object getHandler() -> d
-    boolean isMultiPart(java.util.Map) -> a
-    void httpMulti(java.lang.String,java.util.Map,com.androidquery.callback.AjaxStatus) -> c
-    byte[] toData(java.lang.String,java.io.InputStream) -> a
-    void writeObject(java.io.DataOutputStream,java.lang.String,java.lang.Object) -> a
-    void writeData(java.io.DataOutputStream,java.lang.String,java.lang.String,java.io.InputStream) -> a
-    void writeField(java.io.DataOutputStream,java.lang.String,java.lang.String) -> a
-    java.lang.String makeCookie() -> s
-    java.lang.String access$000(com.androidquery.callback.AbstractAjaxCallback) -> a
+    void init(android.content.Context) -> init
+    void initPathFromAssets(android.content.Context,java.lang.String) -> initPathFromAssets
+    void applyPatch(android.content.Context,java.lang.String) -> applyPatch
+    android.content.pm.ApplicationInfo getApplicationInfo(android.content.Context) -> getApplicationInfo
+    void installDexes(java.lang.ClassLoader,java.io.File,java.util.List) -> installDexes
+    java.lang.reflect.Field findField(java.lang.Object,java.lang.String) -> findField
+    java.lang.reflect.Method findMethod(java.lang.Object,java.lang.String,java.lang.Class[]) -> findMethod
+    void expandFieldArray(java.lang.Object,java.lang.String,java.lang.Object[]) -> expandFieldArray
+    java.io.File getDexDir(android.content.Context,android.content.pm.ApplicationInfo) -> getDexDir
+    void mkdirChecked(java.io.File) -> mkdirChecked
+    java.lang.String copyAsset(android.content.Context,java.lang.String,java.io.File) -> copyAsset
+    void copyFile(java.io.InputStream,java.io.OutputStream) -> copyFile
+    void initPathFromAssetsRuntime(android.content.Context,java.lang.String) -> initPathFromAssetsRuntime
+    void applyPatchRuntime(android.content.Context,java.lang.String) -> applyPatchRuntime
+    void fixClass(java.lang.Class,java.lang.ClassLoader) -> fixClass
+    java.lang.Class initTargetClass(java.lang.Class) -> initTargetClass
+    void replaceMethod(java.lang.Class,java.lang.reflect.Method,java.lang.ClassLoader) -> replaceMethod
+    java.lang.reflect.Field access$400(java.lang.Object,java.lang.String) -> access$400
+    java.lang.reflect.Method access$500(java.lang.Object,java.lang.String,java.lang.Class[]) -> access$500
+    void access$600(java.lang.Object,java.lang.String,java.lang.Object[]) -> access$600
     void <clinit>() -> <clinit>
-com.androidquery.callback.AbstractAjaxCallback$1 -> com.a.b.b:
-    java.lang.Object val$p -> a
-    boolean val$show -> b
-    com.androidquery.callback.AbstractAjaxCallback this$0 -> c
-    void <init>(com.androidquery.callback.AbstractAjaxCallback,java.lang.Object,boolean) -> <init>
-    void run() -> run
-com.androidquery.callback.AjaxCallback -> com.a.b.c:
+com.dodola.rocoofix.RocooFix$1 -> com.dodola.rocoofix.RocooFix$1:
+    dalvik.system.DexFile val$dexFile -> val$dexFile
+    void <init>(java.lang.ClassLoader,dalvik.system.DexFile) -> <init>
+    java.lang.Class findClass(java.lang.String) -> findClass
+com.dodola.rocoofix.RocooFix$V14 -> com.dodola.rocoofix.RocooFix$V14:
     void <init>() -> <init>
-com.androidquery.callback.AjaxStatus -> com.a.b.d:
-    int code -> a
-    java.lang.String message -> b
-    java.lang.String redirect -> c
-    byte[] data -> d
-    java.io.File file -> e
-    java.util.Date time -> f
-    boolean refresh -> g
-    org.apache.http.impl.client.DefaultHttpClient client -> h
-    long duration -> i
-    int source -> j
-    long start -> k
-    boolean done -> l
-    boolean invalid -> m
-    boolean reauth -> n
-    java.lang.String error -> o
-    org.apache.http.protocol.HttpContext context -> p
-    org.apache.http.Header[] headers -> q
-    java.io.Closeable close -> r
+    void install(java.lang.ClassLoader,java.util.List,java.io.File) -> install
+    java.lang.Object[] makeDexElements(java.lang.Object,java.util.ArrayList,java.io.File) -> makeDexElements
+    void access$200(java.lang.ClassLoader,java.util.List,java.io.File) -> access$200
+com.dodola.rocoofix.RocooFix$V19 -> com.dodola.rocoofix.RocooFix$V19:
     void <init>() -> <init>
-    com.androidquery.callback.AjaxStatus source(int) -> a
-    com.androidquery.callback.AjaxStatus code(int) -> b
-    com.androidquery.callback.AjaxStatus error(java.lang.String) -> a
-    com.androidquery.callback.AjaxStatus message(java.lang.String) -> b
-    com.androidquery.callback.AjaxStatus redirect(java.lang.String) -> c
-    com.androidquery.callback.AjaxStatus context(org.apache.http.protocol.HttpContext) -> a
-    com.androidquery.callback.AjaxStatus time(java.util.Date) -> a
-    com.androidquery.callback.AjaxStatus refresh(boolean) -> a
-    com.androidquery.callback.AjaxStatus reauth(boolean) -> b
-    com.androidquery.callback.AjaxStatus client(org.apache.http.impl.client.DefaultHttpClient) -> a
-    com.androidquery.callback.AjaxStatus headers(org.apache.http.Header[]) -> a
-    com.androidquery.callback.AjaxStatus done() -> a
-    com.androidquery.callback.AjaxStatus reset() -> b
-    void closeLater(java.io.Closeable) -> a
-    void close() -> c
-    com.androidquery.callback.AjaxStatus data(byte[]) -> a
-    com.androidquery.callback.AjaxStatus file(java.io.File) -> a
-    boolean getDone() -> d
-    boolean getReauth() -> e
-    boolean getInvalid() -> f
-    int getCode() -> g
-    java.lang.String getMessage() -> h
-    byte[] getData() -> i
-    java.io.File getFile() -> j
-    int getSource() -> k
-    java.lang.String getHeader(java.lang.String) -> d
-com.androidquery.callback.ProxyHandle -> com.a.b.e:
-    void applyProxy(com.androidquery.callback.AbstractAjaxCallback,org.apache.http.HttpRequest,org.apache.http.impl.client.DefaultHttpClient) -> a
-    java.net.Proxy makeProxy(com.androidquery.callback.AbstractAjaxCallback) -> a
-com.androidquery.callback.Transformer -> com.a.b.f:
-    java.lang.Object transform(java.lang.String,java.lang.Class,java.lang.String,byte[],com.androidquery.callback.AjaxStatus) -> a
-com.androidquery.util.AQUtility -> com.a.c.a:
-    boolean debug -> b
-    java.lang.Object wait -> c
-    java.lang.Thread$UncaughtExceptionHandler eh -> d
-    java.util.Map times -> e
-    android.os.Handler handler -> f
-    boolean TEST_IO_EXCEPTION -> a
-    java.util.concurrent.ScheduledExecutorService storeExe -> g
-    java.io.File cacheDir -> h
-    java.io.File pcacheDir -> i
-    char[] map1 -> j
-    byte[] map2 -> k
-    void debugNotify() -> a
-    void debug(java.lang.Object) -> a
-    void error(java.lang.String,java.lang.Throwable) -> a
-    void warn(java.lang.Object,java.lang.Object) -> a
-    void debug(java.lang.Object,java.lang.Object) -> b
-    void debug(java.lang.Throwable) -> a
-    void report(java.lang.Throwable) -> b
-    java.lang.Object invokeHandler(java.lang.Object,java.lang.String,boolean,boolean,java.lang.Class[],java.lang.Object[]) -> a
-    java.lang.Object invokeHandler(java.lang.Object,java.lang.String,boolean,boolean,java.lang.Class[],java.lang.Class[],java.lang.Object[]) -> a
-    java.lang.Object invokeMethod(java.lang.Object,java.lang.String,boolean,java.lang.Class[],java.lang.Class[],java.lang.Object[]) -> a
-    boolean isUIThread() -> b
-    android.os.Handler getHandler() -> c
-    void post(java.lang.Runnable) -> a
-    java.lang.String getMD5Hex(java.lang.String) -> a
-    byte[] getMD5(byte[]) -> a
-    void copy(java.io.InputStream,java.io.OutputStream) -> a
-    void copy(java.io.InputStream,java.io.OutputStream,int,com.androidquery.util.Progress) -> a
-    byte[] toBytes(java.io.InputStream) -> a
-    void write(java.io.File,byte[]) -> a
-    void close(java.io.Closeable) -> a
-    java.util.concurrent.ScheduledExecutorService getFileStoreExecutor() -> e
-    void storeAsync(java.io.File,byte[],long) -> a
-    java.io.File getCacheDir(android.content.Context,int) -> a
-    java.io.File getCacheDir(android.content.Context) -> a
-    java.io.File makeCacheFile(java.io.File,java.lang.String) -> c
-    java.lang.String getCacheFileName(java.lang.String) -> b
-    java.io.File getCacheFile(java.io.File,java.lang.String) -> a
-    java.io.File getExistedCacheByUrl(java.io.File,java.lang.String) -> b
-    void store(java.io.File,byte[]) -> b
-    void cleanCache(java.io.File,long,long) -> a
-    java.io.File getTempDir() -> d
-    boolean testCleanNeeded(java.io.File[],long) -> a
-    void cleanCache(java.io.File[],long) -> b
+    void install(java.lang.ClassLoader,java.util.List,java.io.File) -> install
+    java.lang.Object[] makeDexElements(java.lang.Object,java.util.ArrayList,java.io.File,java.util.ArrayList) -> makeDexElements
+    void access$100(java.lang.ClassLoader,java.util.List,java.io.File) -> access$100
+com.dodola.rocoofix.RocooFix$V23 -> com.dodola.rocoofix.RocooFix$V23:
+    void <init>() -> <init>
+    void install(java.lang.ClassLoader,java.util.List,java.io.File) -> install
+    void access$000(java.lang.ClassLoader,java.util.List,java.io.File) -> access$000
+com.dodola.rocoofix.RocooFix$V4 -> com.dodola.rocoofix.RocooFix$V4:
+    void <init>() -> <init>
+    void install(java.lang.ClassLoader,java.util.List) -> install
+    void access$300(java.lang.ClassLoader,java.util.List) -> access$300
+com.lody.legend.HookManager -> com.lody.legend.a:
+    com.lody.legend.HookManager sDefault -> a
+    java.util.Map classToBackupMethodsMapping -> b
+    void <init>() -> <init>
+    com.lody.legend.HookManager getDefault() -> a
+    void hookMethod(java.lang.reflect.Method,java.lang.reflect.Method) -> a
+    java.lang.reflect.Method hookMethodDalvik(java.lang.reflect.Method,java.lang.reflect.Method) -> b
+    java.lang.reflect.Method hookMethodArt(java.lang.reflect.Method,java.lang.reflect.Method) -> c
     void <clinit>() -> <clinit>
-com.androidquery.util.Common -> com.a.c.b:
-    java.lang.Object handler -> a
-    java.lang.String method -> b
-    java.lang.Object[] params -> c
-    boolean fallback -> d
-    java.lang.Class[] sig -> e
-    int methodId -> f
-    int scrollState -> g
-    android.widget.AbsListView$OnScrollListener osl -> h
-    int lastBottom -> i
-    android.widget.AdapterView$OnItemSelectedListener galleryListener -> j
-    boolean galleryListen -> k
+com.lody.legend.Platform -> com.lody.legend.b:
+    java.nio.ByteOrder PLATFORM_BYTE_ORDER -> a
+    com.lody.legend.Platform PLATFORM_INTERNAL -> b
     void <init>() -> <init>
-    com.androidquery.util.Common method(int,java.lang.Object[]) -> a
-    java.lang.Object invoke(java.lang.Object[]) -> a
-    int compare(java.io.File,java.io.File) -> a
-    void run() -> run
-    void onClick(android.view.View) -> onClick
-    boolean onLongClick(android.view.View) -> onLongClick
-    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-    boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long) -> onItemLongClick
-    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
-    void checkScrolledBottom(android.widget.AbsListView,int) -> a
-    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
-    void onScrollStateChanged(android.widget.ExpandableListView,int) -> a
-    void onScrollStateChanged2(android.widget.AbsListView,int) -> b
-    void afterTextChanged(android.text.Editable) -> afterTextChanged
-    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
-    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
-    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
-    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
-    void showProgress(java.lang.Object,java.lang.String,boolean) -> a
-    int compare(java.lang.Object,java.lang.Object) -> compare
-com.androidquery.util.PredefinedBAOS -> com.a.c.c:
-    void <init>(int) -> <init>
-    byte[] toByteArray() -> toByteArray
-com.androidquery.util.Progress -> com.a.c.d:
-    android.widget.ProgressBar pb -> a
-    android.app.ProgressDialog pd -> b
-    android.app.Activity act -> c
-    android.view.View view -> d
-    boolean unknown -> e
-    int bytes -> f
-    int current -> g
-    java.lang.String url -> h
-    void <init>(java.lang.Object) -> <init>
-    void reset() -> a
-    void setBytes(int) -> a
-    void increment(int) -> b
-    void done() -> b
-    void run() -> run
-    void dismiss(java.lang.String) -> a
-com.androidquery.util.XmlDom -> com.a.c.e:
-    org.w3c.dom.Element root -> a
-    void <init>(java.io.InputStream) -> <init>
-    java.lang.String toString() -> toString
-    java.lang.String toString(int) -> a
-    java.lang.String serialize(org.w3c.dom.Element,int) -> a
-    void writeSpace(org.xmlpull.v1.XmlSerializer,int,java.lang.String) -> a
-    java.lang.String text(org.w3c.dom.Node) -> a
-    void serialize(org.w3c.dom.Element,org.xmlpull.v1.XmlSerializer,int,java.lang.String) -> a
-com.dodola.rocoofix.RocooFix -> com.b.a.a:
-    java.util.Set installedApk -> a
-    java.io.File mOptDir -> b
-    java.util.Map mFixedClass -> c
-    void init(android.content.Context) -> a
-    void initPathFromAssets(android.content.Context,java.lang.String) -> a
-    void applyPatch(android.content.Context,java.lang.String) -> b
-    android.content.pm.ApplicationInfo getApplicationInfo(android.content.Context) -> b
-    void installDexes(java.lang.ClassLoader,java.io.File,java.util.List) -> a
-    java.lang.reflect.Field findField(java.lang.Object,java.lang.String) -> b
-    java.lang.reflect.Method findMethod(java.lang.Object,java.lang.String,java.lang.Class[]) -> b
-    void expandFieldArray(java.lang.Object,java.lang.String,java.lang.Object[]) -> b
-    java.io.File getDexDir(android.content.Context,android.content.pm.ApplicationInfo) -> a
-    void mkdirChecked(java.io.File) -> a
-    java.lang.String copyAsset(android.content.Context,java.lang.String,java.io.File) -> a
-    void copyFile(java.io.InputStream,java.io.OutputStream) -> a
-    java.lang.reflect.Field access$400(java.lang.Object,java.lang.String) -> a
-    java.lang.reflect.Method access$500(java.lang.Object,java.lang.String,java.lang.Class[]) -> a
-    void access$600(java.lang.Object,java.lang.String,java.lang.Object[]) -> a
+    com.lody.legend.Platform getPlatform() -> a
+    int orderByteToInt(byte[]) -> a
+    long orderByteToLong(byte[]) -> b
+    byte[] orderLongToByte(long,int) -> a
     void <clinit>() -> <clinit>
-com.dodola.rocoofix.RocooFix$V14 -> com.b.a.b:
-    void install(java.lang.ClassLoader,java.util.List,java.io.File) -> b
-    java.lang.Object[] makeDexElements(java.lang.Object,java.util.ArrayList,java.io.File) -> a
-    void access$200(java.lang.ClassLoader,java.util.List,java.io.File) -> a
-com.dodola.rocoofix.RocooFix$V19 -> com.b.a.c:
-    void install(java.lang.ClassLoader,java.util.List,java.io.File) -> b
-    java.lang.Object[] makeDexElements(java.lang.Object,java.util.ArrayList,java.io.File,java.util.ArrayList) -> a
-    void access$100(java.lang.ClassLoader,java.util.List,java.io.File) -> a
-com.dodola.rocoofix.RocooFix$V23 -> com.b.a.d:
-    void install(java.lang.ClassLoader,java.util.List,java.io.File) -> b
-    void access$000(java.lang.ClassLoader,java.util.List,java.io.File) -> a
-com.dodola.rocoofix.RocooFix$V4 -> com.b.a.e:
-    void install(java.lang.ClassLoader,java.util.List) -> b
-    void access$300(java.lang.ClassLoader,java.util.List) -> a
-com.nxn.demo.derocoodemo.HelloHack -> com.nxn.demo.derocoodemo.a:
+com.lody.legend.Platform$Platform32Bit -> com.lody.legend.c:
+    void <init>() -> <init>
+    int orderByteToInt(byte[]) -> a
+    long orderByteToLong(byte[]) -> b
+    byte[] orderLongToByte(long,int) -> a
+com.lody.legend.Platform$Platform64Bit -> com.lody.legend.d:
+    void <init>() -> <init>
+    int orderByteToInt(byte[]) -> a
+    long orderByteToLong(byte[]) -> b
+    byte[] orderLongToByte(long,int) -> a
+com.lody.legend.art.ArtMethod -> com.lody.legend.a.a:
+    java.lang.reflect.Method method -> a
+    int M_OBJECT_SIZE -> b
+    void <init>(java.lang.reflect.Method) -> <init>
+    com.lody.legend.art.ArtMethod of(java.lang.reflect.Method) -> a
+    com.lody.legend.art.ArtMethod backup() -> a
+    java.lang.reflect.Method getMethod() -> b
+    long getEntryPointFromInterpreter() -> c
+    void setEntryPointFromInterpreter(long) -> a
+    long getEntryPointFromJni() -> d
+    void setEntryPointFromJni(long) -> b
+    long getEntryPointFromQuickCompiledCode() -> e
+    void setEntryPointFromQuickCompiledCode(long) -> c
+    int getAccessFlags() -> f
+    void setAccessFlags(int) -> a
+    long getDeclaringClass() -> g
+    void setDeclaringClass(long) -> d
+    long getDexCacheResolvedMethods() -> h
+    void setDexCacheResolvedMethods(long) -> e
+    long getDexCacheResolvedTypes() -> i
+    void setDexCacheResolvedTypes(long) -> f
+    int getDexCodeItemOffset() -> j
+    void setDexCodeItemOffset(int) -> b
+    int getDexMethodIndex() -> k
+    void setDexMethodIndex(int) -> c
+    void <clinit>() -> <clinit>
+com.lody.legend.art.ArtMethodStructV19 -> com.lody.legend.a.b:
+    com.lody.legend.utility.StructMember declaring_class_ -> b
+    com.lody.legend.utility.StructMember dex_cache_resolved_methods_ -> c
+    com.lody.legend.utility.StructMember dex_cache_resolved_types_ -> d
+    com.lody.legend.utility.StructMember access_flags_ -> e
+    com.lody.legend.utility.StructMember code_item_offset_ -> f
+    com.lody.legend.utility.StructMember entry_point_from_compiled_code_ -> g
+    com.lody.legend.utility.StructMember entry_point_from_interpreter_ -> h
+    com.lody.legend.utility.StructMember method_dex_index_ -> i
+    com.lody.legend.utility.StructMember native_method_ -> j
+    void <init>(java.lang.reflect.Method) -> <init>
+    long getEntryPointFromInterpreter() -> c
+    void setEntryPointFromInterpreter(long) -> a
+    long getEntryPointFromJni() -> d
+    void setEntryPointFromJni(long) -> b
+    long getEntryPointFromQuickCompiledCode() -> e
+    void setEntryPointFromQuickCompiledCode(long) -> c
+    int getAccessFlags() -> f
+    void setAccessFlags(int) -> a
+    long getDeclaringClass() -> g
+    void setDeclaringClass(long) -> d
+    long getDexCacheResolvedMethods() -> h
+    void setDexCacheResolvedMethods(long) -> e
+    long getDexCacheResolvedTypes() -> i
+    void setDexCacheResolvedTypes(long) -> f
+    int getDexCodeItemOffset() -> j
+    void setDexCodeItemOffset(int) -> b
+    int getDexMethodIndex() -> k
+    void setDexMethodIndex(int) -> c
+com.lody.legend.art.ArtMethodStructV22 -> com.lody.legend.a.c:
+    com.lody.legend.utility.StructMember declaring_class_ -> b
+    com.lody.legend.utility.StructMember dex_cache_resolved_methods_ -> c
+    com.lody.legend.utility.StructMember dex_cache_resolved_types_ -> d
+    com.lody.legend.utility.StructMember access_flags_ -> e
+    com.lody.legend.utility.StructMember dex_code_item_offset_ -> f
+    com.lody.legend.utility.StructMember dex_method_index_ -> g
+    com.lody.legend.utility.StructMember entry_point_from_interpreter_ -> h
+    com.lody.legend.utility.StructMember entry_point_from_jni_ -> i
+    com.lody.legend.utility.StructMember entry_point_from_quick_compiled_code_ -> j
+    void <init>(java.lang.reflect.Method) -> <init>
+    long getEntryPointFromInterpreter() -> c
+    void setEntryPointFromInterpreter(long) -> a
+    long getEntryPointFromJni() -> d
+    void setEntryPointFromJni(long) -> b
+    long getEntryPointFromQuickCompiledCode() -> e
+    void setEntryPointFromQuickCompiledCode(long) -> c
+    int getAccessFlags() -> f
+    void setAccessFlags(int) -> a
+    long getDeclaringClass() -> g
+    void setDeclaringClass(long) -> d
+    long getDexCacheResolvedMethods() -> h
+    void setDexCacheResolvedMethods(long) -> e
+    long getDexCacheResolvedTypes() -> i
+    void setDexCacheResolvedTypes(long) -> f
+    int getDexCodeItemOffset() -> j
+    void setDexCodeItemOffset(int) -> b
+    int getDexMethodIndex() -> k
+    void setDexMethodIndex(int) -> c
+com.lody.legend.art.ArtMethodStructV22_64Bit -> com.lody.legend.a.d:
+    com.lody.legend.utility.StructMember declaring_class_ -> b
+    com.lody.legend.utility.StructMember dex_cache_resolved_methods_ -> c
+    com.lody.legend.utility.StructMember dex_cache_resolved_types_ -> d
+    com.lody.legend.utility.StructMember access_flags_ -> e
+    com.lody.legend.utility.StructMember dex_code_item_offset_ -> f
+    com.lody.legend.utility.StructMember dex_method_index_ -> g
+    com.lody.legend.utility.StructMember entry_point_from_interpreter_ -> h
+    com.lody.legend.utility.StructMember entry_point_from_jni_ -> i
+    com.lody.legend.utility.StructMember entry_point_from_quick_compiled_code_ -> j
+    void <init>(java.lang.reflect.Method) -> <init>
+    long getEntryPointFromInterpreter() -> c
+    void setEntryPointFromInterpreter(long) -> a
+    long getEntryPointFromJni() -> d
+    void setEntryPointFromJni(long) -> b
+    long getEntryPointFromQuickCompiledCode() -> e
+    void setEntryPointFromQuickCompiledCode(long) -> c
+    int getAccessFlags() -> f
+    void setAccessFlags(int) -> a
+    long getDeclaringClass() -> g
+    void setDeclaringClass(long) -> d
+    long getDexCacheResolvedMethods() -> h
+    void setDexCacheResolvedMethods(long) -> e
+    long getDexCacheResolvedTypes() -> i
+    void setDexCacheResolvedTypes(long) -> f
+    int getDexCodeItemOffset() -> j
+    void setDexCodeItemOffset(int) -> b
+    int getDexMethodIndex() -> k
+    void setDexMethodIndex(int) -> c
+com.lody.legend.art.ArtMethodStructV23 -> com.lody.legend.a.e:
+    com.lody.legend.utility.StructMember declaring_class_ -> b
+    com.lody.legend.utility.StructMember dex_cache_resolved_methods_ -> c
+    com.lody.legend.utility.StructMember dex_cache_resolved_types_ -> d
+    com.lody.legend.utility.StructMember access_flags_ -> e
+    com.lody.legend.utility.StructMember dex_code_item_offset_ -> f
+    com.lody.legend.utility.StructMember dex_method_index_ -> g
+    com.lody.legend.utility.StructMember entry_point_from_interpreter_ -> h
+    com.lody.legend.utility.StructMember entry_point_from_jni_ -> i
+    com.lody.legend.utility.StructMember entry_point_from_quick_compiled_code_ -> j
+    void <init>(java.lang.reflect.Method) -> <init>
+    long getEntryPointFromInterpreter() -> c
+    void setEntryPointFromInterpreter(long) -> a
+    long getEntryPointFromJni() -> d
+    void setEntryPointFromJni(long) -> b
+    long getEntryPointFromQuickCompiledCode() -> e
+    void setEntryPointFromQuickCompiledCode(long) -> c
+    int getAccessFlags() -> f
+    void setAccessFlags(int) -> a
+    long getDeclaringClass() -> g
+    void setDeclaringClass(long) -> d
+    long getDexCacheResolvedMethods() -> h
+    void setDexCacheResolvedMethods(long) -> e
+    long getDexCacheResolvedTypes() -> i
+    void setDexCacheResolvedTypes(long) -> f
+    int getDexCodeItemOffset() -> j
+    void setDexCodeItemOffset(int) -> b
+    int getDexMethodIndex() -> k
+    void setDexMethodIndex(int) -> c
+com.lody.legend.art.ArtMethodStructV23_64Bit -> com.lody.legend.a.f:
+    com.lody.legend.utility.StructMember declaring_class_ -> b
+    com.lody.legend.utility.StructMember dex_cache_resolved_methods_ -> c
+    com.lody.legend.utility.StructMember dex_cache_resolved_types_ -> d
+    com.lody.legend.utility.StructMember access_flags_ -> e
+    com.lody.legend.utility.StructMember dex_code_item_offset_ -> f
+    com.lody.legend.utility.StructMember dex_method_index_ -> g
+    com.lody.legend.utility.StructMember entry_point_from_interpreter_ -> h
+    com.lody.legend.utility.StructMember entry_point_from_jni_ -> i
+    com.lody.legend.utility.StructMember entry_point_from_quick_compiled_code_ -> j
+    void <init>(java.lang.reflect.Method) -> <init>
+    long getEntryPointFromInterpreter() -> c
+    void setEntryPointFromInterpreter(long) -> a
+    long getEntryPointFromJni() -> d
+    void setEntryPointFromJni(long) -> b
+    long getEntryPointFromQuickCompiledCode() -> e
+    void setEntryPointFromQuickCompiledCode(long) -> c
+    int getAccessFlags() -> f
+    void setAccessFlags(int) -> a
+    long getDeclaringClass() -> g
+    void setDeclaringClass(long) -> d
+    long getDexCacheResolvedMethods() -> h
+    void setDexCacheResolvedMethods(long) -> e
+    long getDexCacheResolvedTypes() -> i
+    void setDexCacheResolvedTypes(long) -> f
+    int getDexCodeItemOffset() -> j
+    void setDexCodeItemOffset(int) -> b
+    int getDexMethodIndex() -> k
+    void setDexMethodIndex(int) -> c
+com.lody.legend.dalvik.DalvikMethodStruct -> com.lody.legend.b.a:
+    com.lody.legend.utility.StructMember clazz -> a
+    com.lody.legend.utility.StructMember accessFlags -> b
+    com.lody.legend.utility.StructMember registersSize -> c
+    com.lody.legend.utility.StructMember insSize -> d
+    com.lody.legend.utility.StructMember insns -> e
+    com.lody.legend.utility.StructMember nativeFunc -> f
+    java.lang.reflect.Method method -> g
+    void <init>(java.lang.reflect.Method) -> <init>
+    com.lody.legend.dalvik.DalvikMethodStruct of(java.lang.reflect.Method) -> a
+com.lody.legend.utility.LegendNative -> com.lody.legend.utility.LegendNative:
+    void memput(long,byte[]) -> memput
+    byte[] memget(long,int) -> memget
+    long malloc(int) -> malloc
+    long getMethodAddress(java.lang.reflect.Method) -> getMethodAddress
+    boolean isLittleEndian() -> isLittleEndian
+    void <clinit>() -> <clinit>
+com.lody.legend.utility.Memory -> com.lody.legend.utility.a:
+    void write(long,byte[]) -> a
+    byte[] read(long,int) -> a
+    long alloc(int) -> a
+com.lody.legend.utility.Runtime -> com.lody.legend.utility.b:
+    java.lang.Boolean gIS_64_BIT -> a
+    java.lang.Boolean gIS_LITTLE_ENDIAN -> b
+    boolean is64Bit() -> a
+    boolean isLittleEndian() -> b
+    boolean isArt() -> c
+    java.lang.String getVmVersion() -> d
+    void <clinit>() -> <clinit>
+com.lody.legend.utility.Struct -> com.lody.legend.utility.c:
+    long structAddress -> k
+    void <init>(long) -> <init>
+    void applyElement() -> a
+com.lody.legend.utility.StructMapping -> com.lody.legend.utility.d:
+    int offset() -> a
+    int length() -> b
+com.lody.legend.utility.StructMember -> com.lody.legend.utility.e:
+    long structAddress -> a
+    long varOffsetAddress -> b
+    int length -> c
+    void <init>(long,long,int) -> <init>
+    void write(byte[]) -> a
+    void write(long) -> a
+    byte[] read() -> a
+    int readInt() -> b
+    long readLong() -> c
+com.shoyu666.demo.derocoodemo.HelloHack -> com.shoyu666.demo.derocoodemo.a:
     void <init>() -> <init>
     java.lang.String showHello() -> a
-com.nxn.demo.derocoodemo.MainActivity -> com.nxn.demo.derocoodemo.MainActivity:
+com.shoyu666.demo.derocoodemo.MainActivity -> com.shoyu666.demo.derocoodemo.MainActivity:
     void <init>() -> <init>
     void onCreate(android.os.Bundle) -> onCreate
     java.lang.String getCurrentPatchMd5() -> j
-com.nxn.demo.derocoodemo.MainActivity$1 -> com.nxn.demo.derocoodemo.b:
-    com.nxn.demo.derocoodemo.MainActivity this$0 -> a
-    void <init>(com.nxn.demo.derocoodemo.MainActivity) -> <init>
+com.shoyu666.demo.derocoodemo.MainActivity$1 -> com.shoyu666.demo.derocoodemo.b:
+    com.shoyu666.demo.derocoodemo.MainActivity this$0 -> a
+    void <init>(com.shoyu666.demo.derocoodemo.MainActivity) -> <init>
     void onClick(android.view.View) -> onClick
-com.nxn.demo.derocoodemo.MyApplicaton -> com.nxn.demo.derocoodemo.MyApplicaton:
+com.shoyu666.demo.derocoodemo.MyApplicaton -> com.shoyu666.demo.derocoodemo.MyApplicaton:
     void <init>() -> <init>
     void attachBaseContext(android.content.Context) -> attachBaseContext
-com.nxn.demo.derocoodemo.hotfix.HotFixManger -> com.nxn.demo.derocoodemo.a.a:
-    void init(android.content.Context) -> a
-    void installPach(android.content.Context) -> b
-    void updatePatchJar() -> a
-com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchDownloader -> com.nxn.demo.derocoodemo.a.a.a:
-    void downloadPatch() -> a
-com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchFileDir -> com.nxn.demo.derocoodemo.a.a.b:
-    java.io.File getPatchJarDir() -> a
-    java.io.File getCurrentPatchJar() -> b
-com.nxn.demo.derocoodemo.hotfix.ImPatch.DefaultPatchDownloader -> com.nxn.demo.derocoodemo.a.b.a:
+    void onCreate() -> onCreate
+com.shoyu666.demo.derocoodemo.hookdemo.Test -> com.shoyu666.demo.derocoodemo.a.a:
+    java.lang.String getText() -> a
+com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchDownloader -> com.shoyu666.demo.derocoodemo.b.a.a:
+com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchFileDir -> com.shoyu666.demo.derocoodemo.b.a.b:
+    java.io.File getCurrentPatchJar() -> a
+com.shoyu666.demo.derocoodemo.hotfix.ImPatch.DefaultPatchDownloader -> com.shoyu666.demo.derocoodemo.b.b.a:
     void <init>() -> <init>
-    void downloadPatch() -> a
-    java.lang.String getUrl() -> b
-    void downloadRemotePach() -> c
-com.nxn.demo.derocoodemo.hotfix.ImPatch.DefaultPatchDownloader$1 -> com.nxn.demo.derocoodemo.a.b.b:
-    com.nxn.demo.derocoodemo.hotfix.ImPatch.DefaultPatchDownloader this$0 -> i
-    void <init>(com.nxn.demo.derocoodemo.hotfix.ImPatch.DefaultPatchDownloader) -> <init>
-    void callback(java.lang.String,java.io.File,com.androidquery.callback.AjaxStatus) -> b
-    void callback(java.lang.String,java.lang.Object,com.androidquery.callback.AjaxStatus) -> a
-com.nxn.demo.derocoodemo.hotfix.ImPatch.DefaultPatchFileDir -> com.nxn.demo.derocoodemo.a.b.c:
+com.shoyu666.demo.derocoodemo.hotfix.ImPatch.DefaultPatchFileDir -> com.shoyu666.demo.derocoodemo.b.b.b:
     void <init>() -> <init>
-    java.io.File getPatchJarDir() -> a
-    java.io.File getCurrentPatchJar() -> b
+    java.io.File getPatchJarDir() -> b
+    java.io.File getCurrentPatchJar() -> a
     java.lang.String getPatchFileName() -> c
     java.io.File getHotFixPachDir() -> d
-com.nxn.demo.derocoodemo.hotfix.PatchManger -> com.nxn.demo.derocoodemo.a.b:
-    com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchFileDir patchFileDir -> a
-    com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchDownloader patchDownloader -> b
-    com.nxn.demo.derocoodemo.hotfix.PatchManger globalPatchManger -> c
+com.shoyu666.demo.derocoodemo.hotfix.PatchManger -> com.shoyu666.demo.derocoodemo.b.a:
+    com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchFileDir patchFileDir -> a
+    com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchDownloader patchDownloader -> b
+    com.shoyu666.demo.derocoodemo.hotfix.PatchManger globalPatchManger -> c
     void <init>() -> <init>
-    com.nxn.demo.derocoodemo.hotfix.PatchManger getGlobalPatchManger() -> a
-    void <init>(com.nxn.demo.derocoodemo.hotfix.PatchManger$1) -> <init>
-com.nxn.demo.derocoodemo.hotfix.PatchManger$1 -> com.nxn.demo.derocoodemo.a.c:
-com.nxn.demo.derocoodemo.hotfix.PatchManger$Builder -> com.nxn.demo.derocoodemo.a.d:
-    com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchFileDir patchFileDir -> a
-    com.nxn.demo.derocoodemo.hotfix.IPatch.IPatchDownloader patchDownloader -> b
+    com.shoyu666.demo.derocoodemo.hotfix.PatchManger getGlobalPatchManger() -> a
+    void <init>(com.shoyu666.demo.derocoodemo.hotfix.PatchManger$1) -> <init>
+com.shoyu666.demo.derocoodemo.hotfix.PatchManger$1 -> com.shoyu666.demo.derocoodemo.b.b:
+com.shoyu666.demo.derocoodemo.hotfix.PatchManger$Builder -> com.shoyu666.demo.derocoodemo.b.c:
+    com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchFileDir patchFileDir -> a
+    com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchDownloader patchDownloader -> b
     void <init>() -> <init>
-    com.nxn.demo.derocoodemo.hotfix.PatchManger build() -> a
+    com.shoyu666.demo.derocoodemo.hotfix.PatchManger build() -> a
     void initDefault() -> b
-com.nxn.demo.derocoodemo.hotfix.PatchUpdateInfo -> com.nxn.demo.derocoodemo.a.e:
+com.shoyu666.demo.derocoodemo.hotfix.PatchUpdateInfo -> com.shoyu666.demo.derocoodemo.b.d:
     java.lang.String newPatchMd5 -> a
     int targetVersion -> b
-    com.nxn.demo.derocoodemo.hotfix.PatchUpdateInfo mock -> c
+    com.shoyu666.demo.derocoodemo.hotfix.PatchUpdateInfo mock -> c
     void <init>(java.lang.String,int) -> <init>
     void <clinit>() -> <clinit>
-com.nxn.demo.derocoodemo.util.MAppInfoManager -> com.nxn.demo.derocoodemo.b.a:
+com.shoyu666.demo.derocoodemo.util.MAppInfoManager -> com.shoyu666.demo.derocoodemo.c.a:
     int getVersionCode(android.content.Context) -> a
-    java.lang.String getCurProcessName(android.content.Context) -> b
-com.nxn.demo.derocoodemo.util.MAppManager -> com.nxn.demo.derocoodemo.b.b:
+com.shoyu666.demo.derocoodemo.util.MAppManager -> com.shoyu666.demo.derocoodemo.c.b:
     android.app.Application globalApplication -> a
+    void init(android.app.Application) -> a
     android.app.Application getApplication() -> a
-com.nxn.demo.derocoodemo.util.MException -> com.nxn.demo.derocoodemo.b.c:
+com.shoyu666.demo.derocoodemo.util.MException -> com.shoyu666.demo.derocoodemo.c.c:
     void <init>(java.lang.String) -> <init>
-com.nxn.demo.derocoodemo.util.MExceptionManager -> com.nxn.demo.derocoodemo.b.d:
+com.shoyu666.demo.derocoodemo.util.MExceptionManager -> com.shoyu666.demo.derocoodemo.c.d:
     void throwApplictionInitEx(java.lang.String) -> a
