@@ -42,6 +42,6 @@ rocoo_fix {
     excludeClass = ['MyApplicaton.class','HotFixManger.class']
 //    preVersionPath = '1'
     enable = true
-    scanref =true
+//    scanref =true  1.2.1开启
 
 }
