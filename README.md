@@ -8,7 +8,7 @@
 
 
 <br>效果:
- ![image](https://github.com/shoyu666/derocoodemo/blob/master/app/doc/QQ20160708-0.png)
+ ![image](https://github.com/shoyu666/derocoodemo/blob/master/app/doc/QQ20160708-1.png)
 
 <br>mark:
 <br>debug阶段建议设置成sdcard的，方便替换测试
