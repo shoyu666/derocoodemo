@@ -7,6 +7,9 @@
 <br>2抽象patch下载(简单实现了个默认的，可以根据需要修改成自己的下载逻辑)
 
 
+<br>效果:
+ ![image](https://github.com/shoyu666/derocoodemo/blob/master/app/doc/QQ20160708-0.png)
+
 <br>mark:
 <br>debug阶段建议设置成sdcard的，方便替换测试
 <br>RocooFix的大大在561394234群里，包括其它热修复框架的大大
