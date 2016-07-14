@@ -8,8 +8,7 @@
 
 
 <br>效果:
- ![image](https://github.com/shoyu666/derocoodemo/blob/master/app/doc/QQ20160708-1.png)
-
+<img src="https://github.com/shoyu666/derocoodemo/blob/master/app/doc/QQ20160708-1.png" width = "600" height = "300" alt="图片名称" align=center />
 
 | 问题        | 原因           | 建议  |
 | ------------- |:-------------:| -----:|
@@ -29,3 +28,8 @@
 
 <br>2微信的总结
 http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286306&idx=1&sn=d6b2865e033a99de60b2d4314c6e0a25&scene=23&srcid=0705vd1zLzQEHZ9G6JyQSqTG#rd
+
+<br>补丁生成流程简介
+ <img src="https://github.com/shoyu666/derocoodemo/blob/master/app/doc/77d89a39e481ed8c0cd5f4c8a2cfbe86f5bdf8b9_1.jpg" width = "300" height = "500" alt="图片名称" align=center />
+<br>在线补丁流程思路
+   <img src="https://github.com/shoyu666/derocoodemo/blob/master/app/doc/EF41748E-0D10-44F3-831C-6854E8BB4B5D.png" width = "500" height = "400" alt="图片名称" align=center />
