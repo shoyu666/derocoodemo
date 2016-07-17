@@ -17,9 +17,6 @@
 <br>2抽象patch下载(简单实现了个默认的，可以根据需要修改成自己的下载逻辑)
 
 
-<br>效果:
-<img src="https://github.com/shoyu666/derocoodemo/blob/master/app/doc/QQ20160708-1.png" width = "600" height = "300" alt="图片名称" align=center />
-
 | 问题        | 原因           | 建议  |
 | ------------- |:-------------:| -----:|
 | java.lang.IllegalAccessError: Class ref in pre-verified class resolved to unexpected implementation      | 插桩没有成功 | app反编译看看是否插桩成功，(之前用dex2jar出现看不到插庄，但实际已经插庄)这里推荐工具jadx-gui（从群友幽幽那里得知的工具，在此鸣谢）（derocoodemo/app/doc/QQ20160708-0.png是插庄成功的截图） |
