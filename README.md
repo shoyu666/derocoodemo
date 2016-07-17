@@ -16,12 +16,14 @@
 <br>1抽象patch补丁包的路径（默认放在data/data/下，或者放在sdcard,可以自定义）
 <br>2抽象patch下载(简单实现了个默认的，可以根据需要修改成自己的下载逻辑)
 
+<br>b表格会遮挡，请拖动
 
 | 问题        | 原因           | 建议  |
 | ------------- |:-------------:| -----:|
 | java.lang.IllegalAccessError: Class ref in pre-verified class resolved to unexpected implementation      | 插桩没有成功 | app反编译看看是否插桩成功，(之前用dex2jar出现看不到插庄，但实际已经插庄)这里推荐工具jadx-gui（从群友幽幽那里得知的工具，在此鸣谢）（derocoodemo/app/doc/QQ20160708-0.png是插庄成功的截图） |
 | patch.jar生成不了|估计流程不对 |参考(derocoodemo/app/doc/77d89a39e481ed8c0cd5f4c8a2cfbe86f5bdf8b9_1.jpg)|
-
+| hash.txt为空|没有开启混淆|开启混淆|
+|scanref打开后报错 找不到属性|插件版本太低|demo已经应用最新插件|
 
 <br>mark:
 <br>debug阶段建议设置成sdcard的，方便替换测试
