@@ -11,6 +11,7 @@ import com.shoyu666.demo.derocoodemo.hotfix.HotFixManger;
 import com.shoyu666.demo.derocoodemo.hotfix.PatchUpdateInfo;
 import com.shoyu666.demo.derocoodemo.hotfix.PatchManger;
 import com.shoyu666.demo.derocoodemo.util.MAppInfoManager;
+import com.shoyu666.demo.derocoodemo.util.MAppManager;
 
 import java.io.File;
 
@@ -45,5 +46,12 @@ public class MainActivity extends AppCompatActivity {
         File ff = PatchManger.getGlobalPatchManger().patchFileDir.getCurrentPatchJar();
         //TODO
         return "ssssssssssssss";
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        // LxApplication.exit();
+        MAppManager.AppExit(this);
     }
 }
