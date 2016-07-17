@@ -1,1 +1,3 @@
 include ':app'
+include ':rocoo'
+include ':buildsrc'

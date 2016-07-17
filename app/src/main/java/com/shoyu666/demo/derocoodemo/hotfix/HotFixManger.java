@@ -32,8 +32,11 @@ public class HotFixManger {
     }
     private static void installPach(Context context) {
         File lastPach = PatchManger.getGlobalPatchManger().patchFileDir.getCurrentPatchJar();
-        if (lastPach != null && lastPach.exists()) {
+        if (lastPach != null && lastPach.exists()&&lastPach.canRead()) {
             RocooFix.applyPatch(context, lastPach.getAbsolutePath());
+            System.out.println("   installPach"+ lastPach.getAbsolutePath());
+        }else{
+            System.out.println(" no  installPach");
         }
     }
 

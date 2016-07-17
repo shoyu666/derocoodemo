@@ -14,16 +14,16 @@ import java.io.File;
  * Created by shoyu666@163.com on 16/7/5.
  */
 public class DefaultPatchFileDir implements IPatchFileDir {
-    public static final String PachDir = "nxndemopatch";
+    public static final String PachDir = "shoyu666";
     @Override
     public File getPatchJarDir() {
-        return getHotFixPachDir();
+//        return getHotFixPachDir();
+        return getHotFixPachDirSDKCard();
     }
 
     @Override
     public File getCurrentPatchJar() {
-        return new File(getPatchJarDir(),getPatchFileName());
-        //return getHotFixPachDirSDKCard();
+         return new File(getPatchJarDir(),getPatchFileName());
     }
 
     @Override
@@ -44,10 +44,21 @@ public class DefaultPatchFileDir implements IPatchFileDir {
      * @return
      */
     public static File getHotFixPachDirSDKCard() {
+        File dir=null;
         if(!MPermissionUtil.checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)&&!MPermissionUtil.checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)){
-            return new File(getSDCardPath(),PachDir);
+            dir=new File(getSDCardPath());
+            if(!dir.exists()){
+                dir.mkdirs();
+            }
+            if(dir.canRead()){
+                dir=getHotFixPachDir();
+            }else{
+                dir= getHotFixPachDir();
+            }
+        }else{
+            dir= getHotFixPachDir();
         }
-        return getHotFixPachDir();
+          return dir;
     }
      public static String getSDCardPath(){
         return Environment.getExternalStorageDirectory().getAbsolutePath()+ File.separator;

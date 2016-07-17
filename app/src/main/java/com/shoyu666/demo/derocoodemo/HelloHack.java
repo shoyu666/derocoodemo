@@ -6,6 +6,6 @@ package com.shoyu666.demo.derocoodemo;
 public class HelloHack {
 
     public String showHello() {
-        return "H";
+        return "补丁前";
     }
 }

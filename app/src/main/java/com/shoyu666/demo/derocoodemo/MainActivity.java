@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView tv = (TextView)findViewById(R.id.textView);
-        tv.setText(Test.getText());
+        File patchJarDir = PatchManger.getGlobalPatchManger().patchFileDir.getPatchJarDir();
+        tv.setText(Test.getText()+" 补丁初始化路径"+(patchJarDir!=null?patchJarDir.getAbsolutePath():" error"));
         PatchUpdateInfo mock = PatchUpdateInfo.mock;
         if(mock.targetVersion== MAppInfoManager.getVersionCode(this)&&!mock.newPatchMd5.equals(getCurrentPatchMd5())){
             //更新patch
