@@ -2,24 +2,34 @@
 <br>a demo depend rocoofix
 #基于https://github.com/dodola/RocooFix 静态修复部分的demo
 
+<br>android 6.0说明：
+<br>测试发现有2种情况补丁不生效
+<br>1:没有开启scanf
+<br>2:程序无法读取sdcard上的补丁，即使后面手动开启权限，也存在file.canread==false［原因未知］
+<br>3:上面2种情况排除后不生效的，群里讨论
+<br>demo修改：
+<br>1添加scanf
+<br>2界面显示应用的补丁目录（上面情况2下，走data／data）
+
+
 <br>demo 涉及：
 <br>1抽象patch补丁包的路径（默认放在data/data/下，或者放在sdcard,可以自定义）
 <br>2抽象patch下载(简单实现了个默认的，可以根据需要修改成自己的下载逻辑)
 
-
-<br>效果:
-<img src="https://github.com/shoyu666/derocoodemo/blob/master/app/doc/QQ20160708-1.png" width = "600" height = "300" alt="图片名称" align=center />
+<br>b表格会遮挡，请拖动
 
 | 问题        | 原因           | 建议  |
 | ------------- |:-------------:| -----:|
 | java.lang.IllegalAccessError: Class ref in pre-verified class resolved to unexpected implementation      | 插桩没有成功 | app反编译看看是否插桩成功，(之前用dex2jar出现看不到插庄，但实际已经插庄)这里推荐工具jadx-gui（从群友幽幽那里得知的工具，在此鸣谢）（derocoodemo/app/doc/QQ20160708-0.png是插庄成功的截图） |
 | patch.jar生成不了|估计流程不对 |参考(derocoodemo/app/doc/77d89a39e481ed8c0cd5f4c8a2cfbe86f5bdf8b9_1.jpg)|
-
+| hash.txt为空|没有开启混淆|开启混淆|
+|scanref打开后报错 找不到属性|插件版本太低|demo已经应用最新插件|
 
 <br>mark:
 <br>debug阶段建议设置成sdcard的，方便替换测试
 <br>RocooFix的大大在561394234群里，包括其它热修复框架的大大
 <br>需要增量补丁的可以使用bsdiff实现
+<br>https://github.com/shoyu666/bsdiffAndroidDemoWithSo
 
 <br>热修复相关文章:
 
