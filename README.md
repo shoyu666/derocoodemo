@@ -2,6 +2,16 @@
 <br>a demo depend rocoofix
 #基于https://github.com/dodola/RocooFix 静态修复部分的demo
 
+android 6.0说明：
+测试发现有2种情况补丁不生效
+1:没有开启scanf
+2:程序无法读取sdcard上的补丁，即使后面手动开启权限，也存在file.canread==false［原因未知］
+3:上面2种情况排除后不生效的，群里讨论
+demo修改：
+1添加scanf
+2界面显示应用的补丁目录（上面情况2下，走data／data）
+
+
 <br>demo 涉及：
 <br>1抽象patch补丁包的路径（默认放在data/data/下，或者放在sdcard,可以自定义）
 <br>2抽象patch下载(简单实现了个默认的，可以根据需要修改成自己的下载逻辑)
