@@ -27,6 +27,7 @@
 <br>debug阶段建议设置成sdcard的，方便替换测试
 <br>RocooFix的大大在561394234群里，包括其它热修复框架的大大
 <br>需要增量补丁的可以使用bsdiff实现
+<br>https://github.com/shoyu666/bsdiffAndroidDemoWithSo
 
 <br>热修复相关文章:
 
