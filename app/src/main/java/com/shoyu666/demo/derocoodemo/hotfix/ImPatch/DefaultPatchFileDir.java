@@ -45,15 +45,13 @@ public class DefaultPatchFileDir implements IPatchFileDir {
      */
     public static File getHotFixPachDirSDKCard() {
         File dir=null;
-        if(!MPermissionUtil.checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)&&!MPermissionUtil.checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)){
+        if(MPermissionUtil.checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)&&MPermissionUtil.checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)){
             dir=new File(getSDCardPath());
             if(!dir.exists()){
                 dir.mkdirs();
             }
-            if(dir.canRead()){
+            if(!dir.canRead()){
                 dir=getHotFixPachDir();
-            }else{
-                dir= getHotFixPachDir();
             }
         }else{
             dir= getHotFixPachDir();
