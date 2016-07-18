@@ -1,7 +1,8 @@
 # derocoodemo
 <br>a demo depend rocoofix
 #基于https://github.com/dodola/RocooFix 静态修复部分的demo
-
+<br>demo机型测试情况(持续更新)
+https://github.com/shoyu666/derocoodemo/blob/master/TestInfo.md
 <br>操作视频
 <br>http://share.weiyun.com/43032d9696cb8a5bb4e45c03cc6ff2cd
 <br>android 6.0说明：
