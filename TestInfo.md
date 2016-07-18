@@ -9,4 +9,6 @@
 |shoyu666|小米4c|5.1.1LMY47V|Y|
 |shoyu666|小米5高配|6.0MRA58K|Y|
 |shoyu666|华为Mate8|华为 EMUI 4.0（兼容Android OS 6.0）|Y|
+|网友周日虎|小米5低配||Y|
+|网友周日虎|华为PLK-TL01H||Y|
 
