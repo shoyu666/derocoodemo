@@ -2,6 +2,8 @@
 <br>a demo depend rocoofix
 #基于https://github.com/dodola/RocooFix 静态修复部分的demo
 
+<br>操作视频
+<br>http://share.weiyun.com/43032d9696cb8a5bb4e45c03cc6ff2cd
 <br>android 6.0说明：
 <br>测试发现有2种情况补丁不生效
 <br>1:没有开启scanf
