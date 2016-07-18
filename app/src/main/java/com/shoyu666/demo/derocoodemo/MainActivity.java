@@ -14,7 +14,7 @@ import com.shoyu666.demo.derocoodemo.util.MAppManager;
 
 import java.io.File;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BasePermissionActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -16,3 +16,18 @@
 #   public *;
 #}
 -keep class com.dodola.rocoofix.** {*;}
+-keep public class * extends android.app.Fragment
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keepattributes *Annotation*
+-keep class android.support.v4.** { *; }
+-keep interface android.support.v4.app.** { *; }
+-keep public class * extends android.support.v4.**
+-keep public class * extends android.support.v13.**
+-keep class android.support.v13.** { *; }
+-keep class android.support.v7.** { *; }
