@@ -1,5 +1,6 @@
 package com.shoyu666.demo.derocoodemo;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -13,7 +14,7 @@ import com.shoyu666.demo.derocoodemo.util.MAppManager;
 
 import java.io.File;
 
-public class MainActivity extends BasePermissionActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
