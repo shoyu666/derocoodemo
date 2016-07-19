@@ -1,7 +1,8 @@
 # derocoodemo
 <br>a demo depend rocoofix
 #基于https://github.com/dodola/RocooFix 静态修复部分的demo
-
+<br>demo机型测试情况(持续更新)
+https://github.com/shoyu666/derocoodemo/blob/master/TestInfo.md
 <br>操作视频
 <br>http://share.weiyun.com/43032d9696cb8a5bb4e45c03cc6ff2cd
 <br>android 6.0说明：
@@ -21,7 +22,7 @@
 <br>b表格会遮挡，请拖动
 
 | 问题        | 原因           | 建议  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -----|
 | java.lang.IllegalAccessError: Class ref in pre-verified class resolved to unexpected implementation      | 插桩没有成功 | app反编译看看是否插桩成功，(之前用dex2jar出现看不到插庄，但实际已经插庄)这里推荐工具jadx-gui（从群友幽幽那里得知的工具，在此鸣谢）（derocoodemo/app/doc/QQ20160708-0.png是插庄成功的截图） |
 | patch.jar生成不了|估计流程不对 |参考(derocoodemo/app/doc/77d89a39e481ed8c0cd5f4c8a2cfbe86f5bdf8b9_1.jpg)|
 | hash.txt为空|没有开启混淆|开启混淆|
