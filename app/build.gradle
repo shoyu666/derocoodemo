@@ -1,8 +1,11 @@
 apply plugin: 'com.android.application'
-apply plugin: com.dodola.rocoofix.RocooFixPlugin
+apply plugin: 'com.dodola.rocoofix'
 repositories {
     maven {
         url  "http://dl.bintray.com/dodola/maven"
+    }
+    maven {
+        url  "http://dl.bintray.com/shoyu666/maven"
     }
     flatDir {
         dirs 'libs'
@@ -13,12 +16,12 @@ android {
         test {
             keyAlias 'shoyu'
             keyPassword 'admin22'
-            storeFile file('/Users/n/nn/github/derocoodemo/app/doc/test.jks')
+            storeFile file('doc/test.jks')
             storePassword 'admin22'
         }
     }
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "24"
     defaultConfig {
         applicationId "com.shoyu666.demo"
         minSdkVersion 15
@@ -33,21 +36,22 @@ android {
             signingConfig signingConfigs.test
         }
         debug {
-            //minifyEnabled true
-            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:23.0.0'
-    compile project(':rocoo')
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:support-v13:23.2.1'
+    compile 'com.dodola:rocoo:1.1'
     compile(name: 'AndroidQuery-release', ext: 'aar')
 }
 rocoo_fix {
     includePackage = ['com/shoyu666/demo/derocoodemo']
-    excludeClass = ['MyApplicaton.class','HotFixManger.class']
+    excludeClass = ['MyApplicaton.class','HotFixManger.class','BasePermissionActivity.class']
     preVersionPath = '1'
     enable = true
     scanref =true
