@@ -1,12 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.dodola.rocoofix'
 repositories {
-    maven {
-        url  "http://dl.bintray.com/dodola/maven"
-    }
-    maven {
-        url  "http://dl.bintray.com/shoyu666/maven"
-    }
     flatDir {
         dirs 'libs'
     }
