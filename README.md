@@ -27,7 +27,8 @@ https://github.com/shoyu666/derocoodemo/blob/master/TestInfo.md
 | patch.jar生成不了|估计流程不对 |参考(derocoodemo/app/doc/77d89a39e481ed8c0cd5f4c8a2cfbe86f5bdf8b9_1.jpg)|
 | hash.txt为空|没有开启混淆|开启混淆|
 |scanref打开后报错 找不到属性|插件版本太低|demo已经应用最新插件|
-
+|mininum sdk小于15|sdk版本不一致|use overrideLibrary|
+|Error:Execution failed for task  app rocooJarBeforeDexDebug|gradle 版本太低|com.android.tools.build:gradle:2.1.2|
 <br>mark:
 <br>debug阶段建议设置成sdcard的，方便替换测试
 <br>RocooFix的大大在561394234群里，包括其它热修复框架的大大
