@@ -31,7 +31,7 @@ http://share.weiyun.com/43032d9696cb8a5bb4e45c03cc6ff2cd
 |scanref打开后报错 找不到属性|插件版本太低|demo已经应用最新插件|
 |mininum sdk小于15|sdk版本不一致|use overrideLibrary|
 |Error:Execution failed for task  app rocooJarBeforeDexDebug|gradle 版本太低|com.android.tools.build:gradle:2.1.2|
-<br>mark:
+###mark:
 <br>debug阶段建议设置成sdcard的，方便替换测试
 <br>RocooFix的大大在561394234群里，包括其它热修复框架的大大
 <br>需要增量补丁的可以使用bsdiff实现
