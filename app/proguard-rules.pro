@@ -31,3 +31,6 @@
 -keep public class * extends android.support.v13.**
 -keep class android.support.v13.** { *; }
 -keep class android.support.v7.** { *; }
+-keepclassmembers class com.shoyu666.demo.derocoodemo.** {
+  public <init>();
+}
