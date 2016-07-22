@@ -13,6 +13,8 @@
 |网友周日虎|华为PLK-TL01H||Y|
 |网友風清雲少|华为M7|6.0|Y|
 |网友風清雲少|HUAWEI PLK-AL10|5.0.2|Y|
+|网友風清雲少|红米Note 3| 5.0.2|Y |
 |网友PERFECT |三星 note4|4.4|Y|
 |网友PERFECT |三星 s6|5.0|Y|
 |网友PERFECT |三星 s6edge|5.0|Y|
+
