@@ -37,15 +37,15 @@ http://share.weiyun.com/43032d9696cb8a5bb4e45c03cc6ff2cd
 <br>需要增量补丁的可以使用bsdiff实现
 <br>https://github.com/shoyu666/bsdiffAndroidDemoWithSo
 
-<br>热修复相关文章:
+###热修复相关文章:
 
 <br>1 rocoo静态原理基于扣扣空间文章
 <br>https://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=400118620&idx=1&sn=b4fdd5055731290eef12ad0d17f39d4a&scene=1&srcid=1106Imu9ZgwybID13e7y2nEi#wechat_redirect
 
-<br>2微信的总结
+###2微信的总结
 http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286306&idx=1&sn=d6b2865e033a99de60b2d4314c6e0a25&scene=23&srcid=0705vd1zLzQEHZ9G6JyQSqTG#rd
 
-<br>补丁生成流程简介
+###补丁生成流程简介
  <img src="https://github.com/shoyu666/derocoodemo/blob/master/app/doc/77d89a39e481ed8c0cd5f4c8a2cfbe86f5bdf8b9_1.jpg" width = "300" height = "500" alt="图片名称" align=center />
-<br>在线补丁流程思路
+###在线补丁流程思路
    <img src="https://github.com/shoyu666/derocoodemo/blob/master/app/doc/QQ20160718-0.png" width = "500" height = "400" alt="图片名称" align=center />
