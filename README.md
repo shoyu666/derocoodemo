@@ -5,6 +5,8 @@
 https://github.com/shoyu666/derocoodemo/blob/master/TestInfo.md
 ###视频直播操作
 http://share.weiyun.com/43032d9696cb8a5bb4e45c03cc6ff2cd
+###android gradle version!
+com.android.tools.build:gradle:2.1.2
 ###android 6.0说明：
 测试发现有2种情况补丁不生效
 <br>1:没有开启scanf
