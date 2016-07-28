@@ -1,6 +1,7 @@
 # derocoodemo
 <br>a demo depend rocoofix
 #基于https://github.com/dodola/RocooFix 静态修复部分的demo
+###RocooFix的大大在 561394234 群里，包括其它热修复框架的大大
 ###demo机型测试情况(持续更新)
 https://github.com/shoyu666/derocoodemo/blob/master/TestInfo.md
 ###视频直播操作
@@ -36,7 +37,7 @@ com.android.tools.build:gradle:2.1.2
 |rocoo稳定么||rocoo是基于扣扣空间的方案，稳不稳定看下面微信对qq空间方案的评价|
 ###mark:
 <br>debug阶段建议设置成sdcard的，方便替换测试
-<br>RocooFix的大大在561394234群里，包括其它热修复框架的大大
+
 <br>需要增量补丁的可以使用bsdiff实现
 <br>https://github.com/shoyu666/bsdiffAndroidDemoWithSo
 
