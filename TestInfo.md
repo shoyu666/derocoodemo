@@ -18,6 +18,6 @@
 |网友PERFECT |三星 s6|5.0|Y|
 |网友PERFECT |三星 s6edge|5.0|Y|
 |网友PERFECT |vivo x6|5.1|Y|
-|网友不想 |Nexus 4|4.2|Y|
-|网友不想 |Meizu MX4|Flyme OS 4.0|Y|
+|网友不想 |Nexus 4|5.1.1|Y|
+|网友不想 |Meizu MX4|Flyme OS 5.1.7|Y|
 
