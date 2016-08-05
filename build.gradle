@@ -6,7 +6,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.2'
-        classpath 'com.dodola:rocoofix:1.2.4'
+        classpath 'com.dodola:rocoofix:1.2.6'
     }
 }
 
