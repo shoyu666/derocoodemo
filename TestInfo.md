@@ -2,7 +2,7 @@
 <br>https://github.com/shoyu666/derocoodemo/blob/master/app/doc/test/patch.jar
 <br>以上demo测试情况
 
-|测试人| 机型        | 系统           |测试情况(Y/N)|数量|
+|测试人| 机型        | 系统           |测试情况(Y/N)|原因|
 | ------------- | ------------- |:-------------:| -------------|-------------|
 |shoyu666|Htc 820mu|4.4.4|Y||
 |shoyu666|Htc 820|5.0.2|Y||
@@ -20,4 +20,4 @@
 |网友PERFECT |vivo x6|5.1|Y||
 |网友不想 |Nexus 4|5.1.1|Y||
 |网友不想 |Meizu MX4|Flyme OS 5.1.7|Y||
-|兵蜀黍 |三星i959 |5.0.1|N|1|
+|兵蜀黍 |三星i959 |5.0.1|N|未知|
