@@ -38,10 +38,10 @@ com.android.tools.build:gradle:2.1.2
 |Unsupported major.minor version 52.0|高版本的java project使用了低版本的来运行|使用高版本Jdk编译  .. 1.8|
 
 ###注意
-<br>任何在补丁加载前的类（比如Application及其子类）都不能插入Hack.class
-<br>最新插件必须开混淆
-<br>includePackge 包名是 /分割  不是 .分割
-<br>rocoo(lib库)是1.1，rocoofix(插件)是1.2.6   或者自己编译源代码
+<br>1任何在补丁加载前的类（比如Application及其子类）都不能插入Hack.class
+<br>2最新插件必须开混淆
+<br>3includePackge 包名是 /分割  不是 .分割
+<br>4rocoo(lib库)是1.1，rocoofix(插件)是1.2.6   或者自己编译源代码
 ###mark:
 <br>debug阶段建议设置成sdcard的，方便替换测试
 
