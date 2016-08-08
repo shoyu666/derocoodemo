@@ -1,5 +1,6 @@
-<br>https://github.com/shoyu666/derocoodemo/blob/master/app/doc/test/app-release.apk
-<br>https://github.com/shoyu666/derocoodemo/blob/master/app/doc/test/patch.jar
+<br>apk  https://github.com/shoyu666/derocoodemo/blob/master/app/doc/test/app-release.apk
+<br>补丁 https://github.com/shoyu666/derocoodemo/blob/master/app/doc/test/patch.jar
+<br>请将补丁放到demo运行后界面显示的路径下，退出重启
 <br>以上demo测试情况
 
 |测试人| 机型        | 系统           |测试情况(Y/N)|原因|
