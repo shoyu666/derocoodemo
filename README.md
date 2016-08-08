@@ -36,6 +36,12 @@ com.android.tools.build:gradle:2.1.2
 |Error:Execution failed for task  app rocooJarBeforeDexDebug|gradle 版本太低|com.android.tools.build:gradle:2.1.2|
 |rocoo稳定么||rocoo是基于扣扣空间的方案，稳不稳定看下面微信对qq空间方案的评价|
 |Unsupported major.minor version 52.0|高版本的java project使用了低版本的来运行|使用高版本Jdk编译  .. 1.8|
+
+###注意
+<br>任何在补丁加载前的类（比如Application及其子类）都不能插入Hack.class
+<br>最新插件必须开混淆
+<br>includePackge 包名是 /分割  不是 .分割
+<br>rocoo(lib库)是1.1，rocoofix(插件)是1.2.6   或者自己编译源代码
 ###mark:
 <br>debug阶段建议设置成sdcard的，方便替换测试
 
