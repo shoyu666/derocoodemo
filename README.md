@@ -34,6 +34,7 @@ com.android.tools.build:gradle:2.1.2
 |scanref打开后报错 找不到属性|插件版本太低|demo已经应用最新插件|
 |mininum sdk小于15|sdk版本不一致|use overrideLibrary|
 |Error:Execution failed for task  app rocooJarBeforeDexDebug|gradle 版本太低|com.android.tools.build:gradle:2.1.2|
+|>com/android/dx/cf/direct/AttributeFactory|gradle 版本太低|com.android.tools.build:gradle:2.1.2|
 |rocoo稳定么||rocoo是基于扣扣空间的方案，稳不稳定看下面微信对qq空间方案的评价|
 |Unsupported major.minor version 52.0|高版本的java project使用了低版本的来运行|使用高版本Jdk编译  .. 1.8|
 
