@@ -1,6 +1,5 @@
 package com.shoyu666.demo.derocoodemo;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -12,7 +11,11 @@ import com.shoyu666.demo.derocoodemo.hotfix.PatchUpdateInfo;
 import com.shoyu666.demo.derocoodemo.util.MAppInfoManager;
 import com.shoyu666.demo.derocoodemo.util.MAppManager;
 
+import org.apache.commons.codec.digest.DigestUtils;
+
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 
 public class MainActivity extends BasePermissionActivity {
 
@@ -20,11 +23,11 @@ public class MainActivity extends BasePermissionActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView tv = (TextView)findViewById(R.id.textView);
-        File patchJarDir = PatchManger.getGlobalPatchManger().patchFileDir.getPatchJarDir();
-        tv.setText(Test.getText()+" 补丁初始化路径"+(patchJarDir!=null?patchJarDir.getAbsolutePath():" error"));
+        TextView tv = (TextView) findViewById(R.id.textView);
+        File patchJarDir = PatchManger.globalPatchManger.get().patchFileDir.getPatchJarDir();
+        tv.setText(Test.getText() + " 补丁初始化路径" + (patchJarDir != null ? patchJarDir.getAbsolutePath() : " error"));
         PatchUpdateInfo mock = PatchUpdateInfo.mock;
-        if(mock.targetVersion== MAppInfoManager.getVersionCode(this)&&!mock.newPatchMd5.equals(getCurrentPatchMd5())){
+        if (mock.targetVersion == MAppInfoManager.getVersionCode(this) && !mock.newPatchMd5.equals(getCurrentPatchMd5())) {
             //更新patch
 //            HotFixManger.updatePatchJar();
         }
@@ -39,12 +42,18 @@ public class MainActivity extends BasePermissionActivity {
 
     /**
      * 获得当前Patch.jar Md5
+     *
      * @return
      */
     private String getCurrentPatchMd5() {
-        File ff = PatchManger.getGlobalPatchManger().patchFileDir.getCurrentPatchJar();
-        //TODO
-        return "ssssssssssssss";
+        String md5 = null;
+        File ff = PatchManger.globalPatchManger.get().patchFileDir.getCurrentPatchJar();
+        try {
+            md5 = DigestUtils.md5Hex(new FileInputStream(ff));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return md5;
     }
 
 

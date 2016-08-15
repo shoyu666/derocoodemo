@@ -34,7 +34,7 @@ public class DefaultPatchDownloader implements IPatchDownloader {
      * @param
      */
     private void downloadRemotePach() {
-        File pachDir = PatchManger.getGlobalPatchManger().patchFileDir.getPatchJarDir();
+        File pachDir = PatchManger.globalPatchManger.get().patchFileDir.getPatchJarDir();
         if (pachDir != null && pachDir.exists()) {
             File temp = new File(pachDir, "temp.jar");
             if (temp.exists()) {
@@ -46,7 +46,7 @@ public class DefaultPatchDownloader implements IPatchDownloader {
                 public void callback(String url, File object, AjaxStatus status) {
                     super.callback(url, object, status);
                     if (status.getCode() == 200) {
-                        File current = PatchManger.getGlobalPatchManger().patchFileDir.getCurrentPatchJar();
+                        File current = PatchManger.globalPatchManger.get().patchFileDir.getCurrentPatchJar();
                         if (current.exists() && current.delete()) {
                             object.renameTo(current);
                         }

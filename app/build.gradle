@@ -15,7 +15,7 @@ android {
         }
     }
     compileSdkVersion 23
-    buildToolsVersion "24"
+    buildToolsVersion "23.0.3"
     defaultConfig {
         applicationId "com.shoyu666.demo"
         minSdkVersion 15

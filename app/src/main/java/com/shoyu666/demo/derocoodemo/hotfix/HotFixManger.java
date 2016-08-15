@@ -31,7 +31,7 @@ public class HotFixManger {
         }
     }
     private static void installPach(Context context) {
-        File lastPach = PatchManger.getGlobalPatchManger().patchFileDir.getCurrentPatchJar();
+        File lastPach = PatchManger.globalPatchManger.get().patchFileDir.getCurrentPatchJar();
         if (lastPach != null && lastPach.exists()&&lastPach.canRead()) {
             RocooFix.applyPatch(context, lastPach.getAbsolutePath());
             System.out.println("   installPach"+ lastPach.getAbsolutePath());
@@ -45,6 +45,6 @@ public class HotFixManger {
      * 需要更新patch文件的时候调用
      */
     public static void updatePatchJar(){
-        PatchManger.getGlobalPatchManger().patchDownloader.downloadPatch();
+        PatchManger.globalPatchManger.get().patchDownloader.downloadPatch();
     }
 }

@@ -1,9 +1,12 @@
 package com.shoyu666.demo.derocoodemo.hotfix;
 
+import android.test.SingleLaunchActivityTestCase;
+
 import com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchDownloader;
 import com.shoyu666.demo.derocoodemo.hotfix.IPatch.IPatchFileDir;
 import com.shoyu666.demo.derocoodemo.hotfix.ImPatch.DefaultPatchDownloader;
 import com.shoyu666.demo.derocoodemo.hotfix.ImPatch.DefaultPatchFileDir;
+import com.shoyu666.demo.derocoodemo.util.Singleton;
 
 /**
  * Created by shoyu666@163.com on 16/7/5.
@@ -51,19 +54,11 @@ public class PatchManger {
         }
     }
 
-
-    public static volatile PatchManger globalPatchManger;
-
-    public static PatchManger getGlobalPatchManger() {
-        if (globalPatchManger == null) {
-            synchronized (PatchManger.class) {
-                if (globalPatchManger == null) {
-                    PatchManger.Builder b = new PatchManger.Builder();
-                    globalPatchManger = b.build();
-                }
-            }
+    public static  Singleton<PatchManger>  globalPatchManger=new Singleton<PatchManger>(){
+        @Override
+        public PatchManger create() {
+            PatchManger.Builder b = new PatchManger.Builder();
+            return b.build();
         }
-
-        return globalPatchManger;
-    }
+    };
 }
