@@ -1,8 +1,8 @@
-# derocoodemo
+# derocoodemo @Deprecated (see https://github.com/Tencent/tinker)
 <br>a demo depend rocoofix
 #基于https://github.com/dodola/RocooFix 静态修复部分的demo
 ###RocooFix的大大在 561394234 群里，包括其它热修复框架的大大
-###demo机型测试情况(持续更新)
+###demo机型测试情况
 https://github.com/shoyu666/derocoodemo/blob/master/TestInfo.md
 ###视频直播操作
 http://share.weiyun.com/43032d9696cb8a5bb4e45c03cc6ff2cd
