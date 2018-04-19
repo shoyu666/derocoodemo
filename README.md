@@ -1,15 +1,12 @@
 # derocoodemo @Deprecated (see https://github.com/Tencent/tinker)
 <br>a demo depend rocoofix
 #基于https://github.com/dodola/RocooFix 静态修复部分的demo
-###视频直播操作
-http://share.weiyun.com/43032d9696cb8a5bb4e45c03cc6ff2cd
 ###android gradle version!
 com.android.tools.build:gradle:2.1.2
 ###android 6.0说明：
 测试发现有2种情况补丁不生效
 <br>1:没有开启scanf
 <br>2:程序无法读取sdcard上的补丁，即使后面手动开启权限，也存在file.canread==false［原因未知］
-<br>3:上面2种情况排除后不生效的，群里讨论
 <br>demo修改：
 <br>1添加scanf
 <br>2界面显示应用的补丁目录（上面情况2下，走data／data）
